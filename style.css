@@ -1,105 +1,65 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body {
-    font-family: 'Poppins', sans-serif;
-}
 .cabecalho {
-    background-color: #c50606;
-    color: white;
+    background-color: #8ACE00; /* verde BRAT */
+    color: #000;
     display: flex;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
     padding: 20px 0;
-}
-.cabecalho-alura{
-    width: 10%;
-}
-.cabecalho-imagem{
-     width: 10%;
-    
-    
-}
-
-.cabecalho-lista-item{
-    display: inline-block;
-    margin: 0 16px;
-    font-size: 25px;
-}
-
-.escola-imagem{
-    width: 10%;
-    
 }
 
 .escola{
-    background-image: linear-gradient(#f34141,#a51212);
-    color:white;
+    background-image: linear-gradient(#b7ff3c,#7fb800);
+    color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 24px 0;
 }
 
-.escola-div-conteudo{
-    width: 35%;
-}
-
-
-.escola-titulo{
-    padding: 34px 0;
-}
-
 .estudante{
     padding: 24px 0;
-}
-.estudante-imagem{
-    width: 140px;
-}
-
-.estudante-icone{
-    width: 25px;
-    padding: 4px 8px;
-}
-
-.estudante-div {
-    text-align: center;
-    padding: 16px 0;
-}
-
-.estudante-div img {
-    border-radius: 50%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-}
-
-.estudante-titulo{
-    text-align: center;
-    padding: 20px 0;
+    background-color: #111;
+    color: white;
 }
 
 .estudante-todos{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    background-color: rgba(156, 174, 177, 0.411);
+    background-color: #1a1a1a;
+}
+
+.estudante-div{
+    text-align: center;
+    padding: 16px 0;
+    transition: 0.3s;
+}
+
+.estudante-div:hover{
+    transform: scale(1.05);
+}
+
+.estudante-imagem{
+    width: 140px;
+    border: 3px solid #8ACE00;
+}
+
+.estudante-div img{
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.estudante-nome{
+    color: #8ACE00;
+    margin-top: 10px;
 }
 
 .rodape{
-    background-color: rgb(255, 0, 0);
+    background-color: #8ACE00;
     text-align: center;
 }
 
 .rodape-imagem{
-    height: 140px;
-    padding: 100px 0;
-   
-}
-
-p{
-    text-align: justify;
-}
-
-h2{
-    text-align: center;
+    height: 80px;
+    padding: 20px 0;
 }
