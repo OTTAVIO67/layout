@@ -6,7 +6,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .cabecalho {
-    background-color: #c70606;
+    background-color: #c50606;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -34,7 +34,7 @@ body {
 }
 
 .escola{
-    background-image: linear-gradient(#d0d6df,#da2727);
+    background-image: linear-gradient(#f34141,#a51212);
     color:white;
     display: flex;
     justify-content: center;
@@ -63,89 +63,15 @@ body {
     padding: 4px 8px;
 }
 
-.estudante-div{
+.estudante-div {
     text-align: center;
     padding: 16px 0;
 }
 
-.estudante-titulo{
-    text-align: center;
-    padding: 20px 0;
-}
-
-.estudante-todos{
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    background-color: rgba(156, 174, 177, 0.411);
-}
-*{
-    margin: 0;
-    padding: 0;
-}
-body {
-    font-family: 'Poppins', sans-serif;
-}
-.cabecalho {
-    background-color: #c70606;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items:center;
-    padding: 20px 0;
-}
-.cabecalho-alura{
-    width: 10%;
-}
-.cabecalho-imagem{
-     width: 10%;
-    
-    
-}
-
-.cabecalho-lista-item{
-    display: inline-block;
-    margin: 0 16px;
-    font-size: 25px;
-}
-
-.escola-imagem{
-    width: 10%;
-    
-}
-
-.escola{
-    background-image: linear-gradient(#d0d6df,#da2727);
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
-}
-
-.escola-div-conteudo{
-    width: 35%;
-}
-
-
-.escola-titulo{
-    padding: 34px 0;
-}
-
-.estudante{
-    padding: 24px 0;
-}
-.estudante-imagem{
-    width: 140px;
-}
-
-.estudante-icone{
-    width: 25px;
-    padding: 4px 8px;
-}
-
-.estudante-div{
-    text-align: center;
-    padding: 16px 0;
+.estudante-div img {
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
 }
 
 .estudante-titulo{
@@ -160,31 +86,13 @@ body {
 }
 
 .rodape{
-    background-color: rgba(0, 81, 255, 0.575);
+    background-color: rgb(255, 0, 0);
     text-align: center;
 }
 
 .rodape-imagem{
-    height: 60px;
-    padding: 12px 0;
-   
-}
-
-p{
-    text-align: justify;
-}
-
-h2{
-    text-align: center;
-}
-.rodape{
-    background-color: rgba(0, 81, 255, 0.575);
-    text-align: center;
-}
-
-.rodape-imagem{
-    height: 60px;
-    padding: 12px 0;
+    height: 140px;
+    padding: 100px 0;
    
 }
 
