@@ -22,7 +22,97 @@ body{
 .cabecalho-imagem,
 .cabecalho-alura{
     width: 90px;
-}
+}<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charli XCX</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="cabecalho">
+    <img class="cabecalho-alura" src="worldlogo.jpeg" alt="Logo Alura">
+    <img class="cabecalho-imagem" src="charlilogo.png" alt="Logo Charli XCX">
+
+    <ul class="cabecalho-lista">
+        <li class="cabecalho-lista-item">Charli XCX</li>
+        <li class="cabecalho-lista-item">Álbuns</li>
+    </ul>
+</header>
+
+<section class="escola">
+    <div class="escola-div-conteudo">
+        <h2 class="escola-titulo">Sobre a Charli XCX</h2>
+
+        <p class="escola-texto-um">
+            Charli XCX é uma cantora, compositora e produtora britânica conhecida por seu estilo inovador no pop. Ela mistura música eletrônica, hyperpop e dance, conquistando fãs no mundo inteiro.
+        </p>
+
+        <p class="escola-texto-dois">
+            Ao longo da carreira, lançou diversos sucessos e influenciou uma nova geração de artistas. Seu álbum "BRAT" tornou-se um dos maiores destaques de sua carreira.
+        </p>
+    </div>
+</section>
+
+<section class="estudante">
+    <h2 class="estudante-titulo">Principais álbuns da Charli XCX</h2>
+
+    <div class="estudante-todos">
+
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="brat.jpg" alt="BRAT">
+            <h3 class="estudante-nome">BRAT (2024)</h3>
+        </div>
+
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="crash.jpg" alt="CRASH">
+            <h3 class="estudante-nome">CRASH (2022)</h3>
+        </div>
+
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="howimfeelingnow.jpg" alt="how i'm feeling now">
+            <h3 class="estudante-nome">how i'm feeling now (2020)</h3>
+        </div>
+
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="charli.jpg" alt="Charli">
+            <h3 class="estudante-nome">Charli (2019)</h3>
+        </div>
+
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="pop2.jpg" alt="Pop 2">
+            <h3 class="estudante-nome">Pop 2 (2017)</h3>
+        </div>
+
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="number1angel.jpg" alt="Number 1 Angel">
+            <h3 class="estudante-nome">Number 1 Angel (2017)</h3>
+        </div>
+
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="sucker.jpg" alt="Sucker">
+            <h3 class="estudante-nome">Sucker (2014)</h3>
+        </div>
+
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="trueromance.jpg" alt="True Romance">
+            <h3 class="estudante-nome">True Romance (2013)</h3>
+        </div>
+
+    </div>
+</section>
+
+<footer class="rodape">
+    <img class="rodape-imagem" src="charlifooter.png" alt="Charli XCX">
+</footer>
+
+</body>
+</html>
 
 .cabecalho-lista{
     display: flex;
