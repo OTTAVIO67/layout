@@ -1,220 +1,100 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-
-body{
+body {
     font-family: 'Poppins', sans-serif;
-    background-color: #8ACE00; /* Verde BRAT */
-    color: #000;
 }
-
-.cabecalho{
-    background-color: #000;
-    color: #8ACE00;
+.cabecalho {
+    background-color: #c70606;
+    color: white;
     display: flex;
     justify-content: space-around;
+    align-items:center;
+    padding: 20px 0;
+}
+.cabecalho-alura{
+    width: 10%;
+}
+.cabecalho-imagem{
+     width: 10%;
+    
+    
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 25px;
+}
+
+.escola-imagem{
+    width: 10%;
+    
+}
+
+.escola{
+    background-image: linear-gradient(#d0d6df,#da2727);
+    color:white;
+    display: flex;
+    justify-content: center;
     align-items: center;
     padding: 24px 0;
 }
 
-.cabecalho-imagem,
-.cabecalho-alura{
-    width: 90px;
-}<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charli XCX</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-</head>
-
-<body>
-
-<header class="cabecalho">
-    <img class="cabecalho-alura" src="worldlogo.jpeg" alt="Logo Alura">
-    <img class="cabecalho-imagem" src="charlilogo.png" alt="Logo Charli XCX">
-
-    <ul class="cabecalho-lista">
-        <li class="cabecalho-lista-item">Charli XCX</li>
-        <li class="cabecalho-lista-item">Álbuns</li>
-    </ul>
-</header>
-
-<section class="escola">
-    <div class="escola-div-conteudo">
-        <h2 class="escola-titulo">Sobre a Charli XCX</h2>
-
-        <p class="escola-texto-um">
-            Charli XCX é uma cantora, compositora e produtora britânica conhecida por seu estilo inovador no pop. Ela mistura música eletrônica, hyperpop e dance, conquistando fãs no mundo inteiro.
-        </p>
-
-        <p class="escola-texto-dois">
-            Ao longo da carreira, lançou diversos sucessos e influenciou uma nova geração de artistas. Seu álbum "BRAT" tornou-se um dos maiores destaques de sua carreira.
-        </p>
-    </div>
-</section>
-
-<section class="estudante">
-    <h2 class="estudante-titulo">Principais álbuns da Charli XCX</h2>
-
-    <div class="estudante-todos">
-
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="brat.jpg" alt="BRAT">
-            <h3 class="estudante-nome">BRAT (2024)</h3>
-        </div>
-
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="crash.jpg" alt="CRASH">
-            <h3 class="estudante-nome">CRASH (2022)</h3>
-        </div>
-
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="howimfeelingnow.jpg" alt="how i'm feeling now">
-            <h3 class="estudante-nome">how i'm feeling now (2020)</h3>
-        </div>
-
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="charli.jpg" alt="Charli">
-            <h3 class="estudante-nome">Charli (2019)</h3>
-        </div>
-
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="pop2.jpg" alt="Pop 2">
-            <h3 class="estudante-nome">Pop 2 (2017)</h3>
-        </div>
-
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="number1angel.jpg" alt="Number 1 Angel">
-            <h3 class="estudante-nome">Number 1 Angel (2017)</h3>
-        </div>
-
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="sucker.jpg" alt="Sucker">
-            <h3 class="estudante-nome">Sucker (2014)</h3>
-        </div>
-
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="trueromance.jpg" alt="True Romance">
-            <h3 class="estudante-nome">True Romance (2013)</h3>
-        </div>
-
-    </div>
-</section>
-
-<footer class="rodape">
-    <img class="rodape-imagem" src="charlifooter.png" alt="Charli XCX">
-</footer>
-
-</body>
-</html>
-
-.cabecalho-lista{
-    display: flex;
-    gap: 40px;
-    list-style: none;
-}
-
-.cabecalho-lista-item{
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.escola{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 80px 10%;
-    background-color: #8ACE00;
-}
-
 .escola-div-conteudo{
-    width: 70%;
-    text-align: center;
+    width: 35%;
 }
+
 
 .escola-titulo{
-    font-size: 42px;
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-
-.escola-texto-um,
-.escola-texto-dois{
-    font-size: 20px;
-    margin-bottom: 20px;
-    line-height: 1.6;
+    padding: 34px 0;
 }
 
 .estudante{
-    background-color: #000;
-    color: #8ACE00;
+    padding: 24px 0;
+}
+.estudante-imagem{
+    width: 140px;
+}
+
+.estudante-icone{
+    width: 25px;
+    padding: 4px 8px;
+}
+
+.estudante-div{
     text-align: center;
-    padding: 60px 5%;
+    padding: 16px 0;
 }
 
 .estudante-titulo{
-    font-size: 36px;
-    margin-bottom: 40px;
-    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
 }
 
 .estudante-todos{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
-    gap: 30px;
-}
-
-.estudante-div{
-    background-color: #8ACE00;
-    color: #000;
-    border-radius: 15px;
-    padding: 20px;
-    transition: 0.3s;
-}
-
-.estudante-div:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0 20px #8ACE00;
-}
-
-.estudante-imagem{
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
-
-.estudante-nome{
-    font-size: 22px;
-    margin-bottom: 15px;
-}
-
-.estudante-icone{
-    width: 35px;
-    margin: 8px;
-    transition: 0.3s;
-}
-
-.estudante-icone:hover{
-    transform: scale(1.2);
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background-color: rgba(156, 174, 177, 0.411);
 }
 
 .rodape{
-    background-color: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 25px;
+    background-color: rgba(0, 81, 255, 0.575);
+    text-align: center;
 }
 
 .rodape-imagem{
-    width: 120px;
+    height: 60px;
+    padding: 12px 0;
+   
 }
+
+p{
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+}
+
