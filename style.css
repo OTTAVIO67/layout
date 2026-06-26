@@ -1,65 +1,34 @@
-.cabecalho {
-    background-color: #8ACE00; /* verde BRAT */
-    color: #000;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px 0;
-}
+<div class="estudante-div">
+    <img class="estudante-imagem" src="true-romance.jpg" alt="Capa do álbum True Romance">
+    <h3 class="estudante-nome">True Romance (2013)</h3>
+</div>
 
-.escola{
-    background-image: linear-gradient(#b7ff3c,#7fb800);
-    color: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
-}
+<div class="estudante-div">
+    <img class="estudante-imagem" src="sucker.jpg" alt="Capa do álbum Sucker">
+    <h3 class="estudante-nome">Sucker (2014)</h3>
+</div>
 
-.estudante{
-    padding: 24px 0;
-    background-color: #111;
-    color: white;
-}
+<div class="estudante-div">
+    <img class="estudante-imagem" src="vroom-vroom.jpg" alt="Capa do EP Vroom Vroom">
+    <h3 class="estudante-nome">Vroom Vroom (2016)</h3>
+</div>
 
-.estudante-todos{
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    background-color: #1a1a1a;
-}
+<div class="estudante-div">
+    <img class="estudante-imagem" src="charli.jpg" alt="Capa do álbum Charli">
+    <h3 class="estudante-nome">Charli (2019)</h3>
+</div>
 
-.estudante-div{
-    text-align: center;
-    padding: 16px 0;
-    transition: 0.3s;
-}
+<div class="estudante-div">
+    <img class="estudante-imagem" src="how-im-feeling-now.jpg" alt="Capa do álbum How I'm Feeling Now">
+    <h3 class="estudante-nome">How I'm Feeling Now (2020)</h3>
+</div>
 
-.estudante-div:hover{
-    transform: scale(1.05);
-}
+<div class="estudante-div">
+    <img class="estudante-imagem" src="crash.jpg" alt="Capa do álbum Crash">
+    <h3 class="estudante-nome">Crash (2022)</h3>
+</div>
 
-.estudante-imagem{
-    width: 140px;
-    border: 3px solid #8ACE00;
-}
-
-.estudante-div img{
-    border-radius: 50%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-}
-
-.estudante-nome{
-    color: #8ACE00;
-    margin-top: 10px;
-}
-
-.rodape{
-    background-color: #8ACE00;
-    text-align: center;
-}
-
-.rodape-imagem{
-    height: 80px;
-    padding: 20px 0;
-}
+<div class="estudante-div">
+    <img class="estudante-imagem" src="brat.jpg" alt="Capa do álbum BRAT">
+    <h3 class="estudante-nome">BRAT (2024)</h3>
+</div>
